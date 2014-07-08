@@ -153,9 +153,9 @@ PATH="$GEM_HOME/bin:$PATH"
 if test -d $cache_dir/ruby/.gem; then
   status "Restoring ruby gems directory from cache"
   cp -r $cache_dir/ruby/.gem $build_dir
-  HOME=$build_dir gem update compass --user-install --no-rdoc --no-ri
+  HOME=$build_dir gem update compass --user-install --no-rdoc --no-ri -v 1.0.0.alpha.20
 else
-  HOME=$build_dir gem install compass --user-install --no-rdoc --no-ri
+  HOME=$build_dir gem install compass --user-install --no-rdoc --no-ri -v 1.0.0.alpha.20
 fi
 
 # cache ruby gems compass
