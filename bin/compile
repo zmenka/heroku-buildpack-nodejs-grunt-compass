@@ -155,7 +155,7 @@ PATH="$GEM_HOME/bin:$PATH"
 #  cp -r $cache_dir/ruby/.gem $build_dir
 #  HOME=$build_dir gem update compass --user-install --no-rdoc --no-ri -v 1.0.0.alpha.20
 #else
-  HOME=$build_dir gem install compass --user-install --no-rdoc --no-ri -v 1.0.0.alpha.20
+  HOME=$build_dir gem install compass --user-install --no-rdoc --no-ri -v 1.0.1
   HOME=$build_dir gem install --pre sass-css-importer --user-install --no-rdoc --no-ri -v 1.0.0.beta.0
 #fi
 
